@@ -1,0 +1,58 @@
+@media (min-width: 320px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+    /* margin-right: 10px; */
+  }
+  .journey {
+    border: 2px solid blue;
+    height: 10px;
+    background-image: url('https://th.bing.com/th/id/R.4b42d6a2ffc73ae88d66beeb103ffe98?rik=2WjFXFRo1b8SGg&riu=http%3a%2f%2fberadiantsquared.com%2fwp-content%2fuploads%2fsites%2f20%2f2013%2f05%2fJourney-Destination.jpg&ehk=Y2SqtlNVggmmCG6GUjF5VBOVIgVbn8e6M1RASwT5q%2bU%3d&risl=&pid=ImgRaw&r=0');
+    background-size: 300px;
+    background-repeat: no-repeat;
+  }
+  .journey-content {
+    top: 270px;
+    left: 32%;
+    scroll-behavior: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .journey {
+    background-size: 657px;
+  }
+  .journey-content {
+    top: 270px;
+    left: 40%;
+    scroll-behavior: auto;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    border: 2px solid blue;
+  }
+  .nav-links {
+    display: block;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .journey-content {
+    top: 300px;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    /* border: 2px solid pink; */
+  }
+}
+@media (min-width: 1536px) {
+  body {
+    /* border: 2px solid yellow; */
+  }
+}

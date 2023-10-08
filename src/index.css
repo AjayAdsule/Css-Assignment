@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fcfcfc;
+}
+/* declare variable for fonts color padding  */
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d96a3;
+  --padding-inline-section: 20px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+}
+/* we create a utility class in which we define display flex and give item in center if we need any html element give display flex we use this class */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.hover-links {
+  color: var(--primary-text-color);
+  transition: 0.3s ease-out;
+}
+.hover-links:hover {
+  color: var(--accent-color);
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 600;
+  color: white !important;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+  border: 0.1px solid var(--primary-text-color);
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color) !important;
+  transition: 0.2s ease-out;
+}
+.secondary-button:hover {
+  color: var(--accent-color-dark) !important;
+}
+.container {
+  max-width: 1180px;
+  border: 2px solid green;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
+}
+
+.main-nav {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.company-logo img {
+  width: 200px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 30px;
+}
+
+nav-links {
+  flex-basis: 737px;
+}
+.contact {
+  height: 520px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 400px;
+  width: 350px;
+  padding: 25px;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.content {
+  margin-top: 25px;
+}
+.touch {
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+.journey {
+  border: 2px solid blue;
+  height: 1000px;
+  background-image: url('https://th.bing.com/th/id/R.4b42d6a2ffc73ae88d66beeb103ffe98?rik=2WjFXFRo1b8SGg&riu=http%3a%2f%2fberadiantsquared.com%2fwp-content%2fuploads%2fsites%2f20%2f2013%2f05%2fJourney-Destination.jpg&ehk=Y2SqtlNVggmmCG6GUjF5VBOVIgVbn8e6M1RASwT5q%2bU%3d&risl=&pid=ImgRaw&r=0');
+  background-size: 1177px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.journey-content {
+  /* border: 2px solid yellow; */
+  /* height: 350px; */
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 350px;
+  background-color: #4a4a4b;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.journey h2 {
+  color: white;
+  position: absolute;
+  top: 107px;
+  left: 43%;
+}
+.contents {
+  color: white;
+  margin-top: 25px;
+  padding: 18px;
+}
